@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main div {
+    border: 1px solid red;
+}
+.main {
+    display: grid;
+    grid-template: 1fr 3fr / 1fr 3fr;
+    height: 100vh;
+}
+.header {
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
